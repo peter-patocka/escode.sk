@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/escode.sk/static/css/main.29010706.css",
-    "main.js": "/escode.sk/static/js/main.01e5e408.js",
-    "index.html": "/escode.sk/index.html",
-    "service-worker.js": "/escode.sk/service-worker.js",
-    "main.29010706.css.map": "/escode.sk/static/css/main.29010706.css.map",
-    "main.01e5e408.js.map": "/escode.sk/static/js/main.01e5e408.js.map"
+    "main.css": "/static/css/main.29010706.css",
+    "main.js": "/static/js/main.01e5e408.js",
+    "index.html": "/index.html",
+    "service-worker.js": "/service-worker.js",
+    "main.29010706.css.map": "/static/css/main.29010706.css.map",
+    "main.01e5e408.js.map": "/static/js/main.01e5e408.js.map"
   },
   "entrypoints": [
     "static/css/main.29010706.css",
