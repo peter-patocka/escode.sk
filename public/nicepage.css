@@ -12821,6 +12821,9 @@ section.u-image,
   .u-sidebar {
     flex: 1;
   }
+  .u-section-7-2 .u-text-2 {
+    margin-bottom: 20px;
+  }
 }
 .u-sidebar:first-child.u-indent-100 {
   margin-right: 100px;
