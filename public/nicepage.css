@@ -17156,6 +17156,9 @@ p {
 .u-align-right {
   text-align: right;
 }
+.u-60-percent {
+    padding-left: 60%;
+}
 @media (min-width: 1200px) {
   .u-align-right-xl {
     text-align: right;
@@ -34694,6 +34697,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
+  }
+  .u-60-percent {
+    text-align: center;
+    padding-left: 0;
   }
 }
 

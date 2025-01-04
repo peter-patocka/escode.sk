@@ -1,0 +1,16 @@
+.mottoList {
+  overflow: hidden;
+  width: 100% !important;
+  height: 300px !important;
+}
+.mottoListItem {
+  position: absolute;
+  padding: 0 10px;
+  width: 100%;
+}
+
+@media (max-width: 575px) {
+  .mottoListItem {
+    width: 95%;
+  }
+}
