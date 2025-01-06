@@ -12821,6 +12821,9 @@ section.u-image,
   .u-sidebar {
     flex: 1;
   }
+  .u-section-7-2 .u-text-2 {
+    margin-bottom: 20px;
+  }
 }
 .u-sidebar:first-child.u-indent-100 {
   margin-right: 100px;
@@ -17152,6 +17155,9 @@ p {
 }
 .u-align-right {
   text-align: right;
+}
+.u-60-percent {
+    padding-left: 60%;
 }
 @media (min-width: 1200px) {
   .u-align-right-xl {
@@ -34691,6 +34697,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-text-1 {
     width: 340px;
+  }
+  .u-60-percent {
+    text-align: center;
+    padding-left: 0;
   }
 }
 
