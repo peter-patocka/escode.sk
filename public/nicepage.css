@@ -5231,6 +5231,11 @@ a {
     width: 100%;
   }
 }
+@media (max-width: 350px) {
+    .u-form-vertical .u-form-group {
+        width: 90%;
+    }
+}
 .u-form-horizontal .u-form-group {
   display: flex;
   flex: 0 0 auto;
