@@ -1,0 +1,9 @@
+@keyframes Pulsate {
+  from { opacity: 1; }
+  50% { opacity: 0.25; }
+  to { opacity: 1; }
+}
+
+.headlineSection img {
+  animation: Pulsate 4s linear infinite;
+}
