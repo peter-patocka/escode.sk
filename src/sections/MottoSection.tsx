@@ -63,7 +63,7 @@ export const MottoSection: FC = () => {
   });
 
     return (
-        <section className="u-black u-clearfix u-section-2" id="sec-52fe">
+        <section className="u-black u-clearfix u-section-2" id="sec-52fe" data-aos="fade-up" data-aos-delay="100">
             <div className="u-clearfix u-sheet u-sheet-1">
                 <div className={classNames("u-align-center u-container-style u-group u-group-1", css.mottoList)} onClick={() => slideToNextItem()}>
                   {transitions((style, i) => (
