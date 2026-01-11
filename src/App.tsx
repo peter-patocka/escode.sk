@@ -9,10 +9,16 @@ import 'aos/dist/aos.css';
 
 function App() {
   useEffect(() => {
+    // Check if user prefers reduced motion (with fallback for test environment)
+    const prefersReducedMotion = window.matchMedia 
+      ? window.matchMedia('(prefers-reduced-motion: reduce)').matches 
+      : false;
+    
     AOS.init({
       once: true,
       duration: 400,
       easing: 'ease-out-cubic',
+      disable: prefersReducedMotion, // Disable animations if user prefers reduced motion
     });
   }, []);
 
